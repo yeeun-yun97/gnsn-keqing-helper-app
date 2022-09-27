@@ -24,3 +24,5 @@ jobs:
         with:
           name: app
           path: app/build/outputs/apk/debug
+      - name: Run unit testing
+        run: bash ./gradlew test
